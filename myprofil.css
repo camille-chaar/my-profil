@@ -1,0 +1,75 @@
+ body {
+
+  background-color: #d9e4dd;
+  color: #555555;
+  font-family: bodoni 72;
+  font-size: 16px ; 
+  font-weight: 400; 
+  text-align: center
+
+ } 
+
+h1 {
+	font-family: bodoni 72 smallcaps;
+	font-size: 28px
+}
+
+h2 {
+	font-family:bodoni 72 ;
+	font-size: 23px
+
+}
+
+h3 {
+	font-family: bodoni 72 ;
+	font-size: 16px
+}
+
+div { text-align: center;
+	margin: 20px;
+	padding: 40px;
+	box-shadow: 2px 3px 4px #cdc9c3;
+
+	border: 2px solid #fbf7f0;
+	border-radius: 25px;
+	background-color: #FFFAFA; 
+
+
+}
+
+img { width: 120px;
+	border-radius: 100%;
+	box-shadow: 5px 3px 3px #cdc9c3 ;
+	border :2px solid #cdc9c3;
+
+}
+
+.container { width: 700px ;
+	margin : 40px auto;
+}
+
+@media (max-width: 960px) {
+	.container { width: 700px }
+
+}
+
+
+@media (max-width: 500px) {
+	.container {
+		width : 300px ;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width : 500px ; 
+	}
+}
+
+
+
+
+ 
+
+
+
